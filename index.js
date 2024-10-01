@@ -17,15 +17,15 @@
 // console.log(newNumber)
 
 // The initial numbers that must be verified.
-const n1 = 1;
-const n2 = 6;
-const n3 = 19;
-const n4 = 24;
+// const n1 = 1;
+// const n2 = 6;
+// const n3 = 19;
+// const n4 = 24;
 
 // Check one: add up to 50
 // This is a fairly simple operation using
 // arithmetic operators and a comparison.
-const isSum50 = (n1 + n2 + n3 + n4) == 50;
+// const isSum50 = (n1 + n2 + n3 + n4) == 50;
 
 // console.log(isSum50)
 // true
@@ -45,38 +45,38 @@ const isSum50 = (n1 + n2 + n3 + n4) == 50;
 // console.log(divisbleBy5);
 
 
-const isTwoOdd = (n1 % 2) + (n2 % 2) + (n3 % 2) + (n4 % 2) >= 2;
-console.log(isTwoOdd)
-// true
+// const isTwoOdd = (n1 % 2) + (n2 % 2) + (n3 % 2) + (n4 % 2) >= 2;
+// console.log(isTwoOdd)
+// // true
 
-const isOver25 = !(n1 > 25 || n2 > 25 || n3 > 25 || n4 > 25);
-console.log(isOver25)
-// false
+// const isOver25 = !(n1 > 25 || n2 > 25 || n3 > 25 || n4 > 25);
+// console.log(isOver25)
+// // false
 
-const isUnique = n1 != n2 && n1 != n3 && n1 != n4 && n2 != n3 && n2 != n4 && n3 != n4;
-console.log(isUnique)
-// true
+// const isUnique = n1 != n2 && n1 != n3 && n1 != n4 && n2 != n3 && n2 != n4 && n3 != n4;
+// console.log(isUnique)
+// // true
 
-const isValid = isSum50 && isTwoOdd && isOver25 && isUnique;
-console.log(isValid);
+// const isValid = isSum50 && isTwoOdd && isOver25 && isUnique;
+// console.log(isValid);
 
 
-const dontDoThis = ((n1 + n2 + n3 + n4) == 50) && 
-  ((n1 % 2) + (n2 % 2) + (n3 % 2) + (n4 % 2) >= 2) && 
-  !(n1 > 25 || n2 > 25 || n3 > 25 || n4 > 25) && 
-  (n1 != n2 && n1 != n3 && n1 != n4 && n2 != n3 && n2 != n4 && n3 != n4);
+// const dontDoThis = ((n1 + n2 + n3 + n4) == 50) && 
+//   ((n1 % 2) + (n2 % 2) + (n3 % 2) + (n4 % 2) >= 2) && 
+//   !(n1 > 25 || n2 > 25 || n3 > 25 || n4 > 25) && 
+//   (n1 != n2 && n1 != n3 && n1 != n4 && n2 != n3 && n2 != n4 && n3 != n4);
 
-let result = n1 % 5 
-let result1 = n2 % 5
-let result2 = n3 % 5
-let result3 = n4 % 5
+// let result = n1 % 5 
+// let result1 = n2 % 5
+// let result2 = n3 % 5
+// let result3 = n4 % 5
 
-const subNumbers = n2 -n1
+// const subNumbers = n2 -n1
 
-let multby5 = subNumbers*n3
+// let multby5 = subNumbers*n3
 
-let remenainder = multby5 % n4
-console.log(remenainder)
+// let remenainder = multby5 % n4
+// console.log(remenainder)
 // true 23
 
 
@@ -155,3 +155,12 @@ console.log(remenainder)
 
 // console.log(`60 miles per hour would be best for the trip because it takes 
 //     ${travelingAvgOf60InHours} and is within our budget which is: ${budget2}`)
+
+if (false) {
+
+console.log('True');
+
+} else {
+
+console.log('False');
+}
